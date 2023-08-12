@@ -1,0 +1,10 @@
+runtime: python38
+service: t5-base-lu
+
+instance_class: F4_1G
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  max_instances: 1
+
+entrypoint: gunicorn -b :$PORT -w 8 main:app --timeout 1200

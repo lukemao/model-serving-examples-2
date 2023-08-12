@@ -1,0 +1,19 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: zeroshot-cr
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/maxScale: '5'
+    spec:
+      containers:
+      - image: gcr.io/gft-bike-insurance/zeroshot-cr:latest
+        ports:
+        - containerPort: 5000
+        resources:
+          limits:
+            cpu: '1'
+            memory: 4096Mi
+      serviceAccountName: 704608691211-compute@developer.gserviceaccount.com

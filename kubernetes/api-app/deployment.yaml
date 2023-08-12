@@ -1,0 +1,25 @@
+# This file configures the hello-world app which serves public web traffic.
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: langml-gke
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: langml-gke
+  template:
+    metadata:
+      labels:
+        app: langml-gke
+    spec:
+      containers:
+      - name: langml-gke
+        # Replace $GCLOUD_PROJECT with your project ID
+        image: gcr.io/sap-ds-demo/langml-gke:latest
+        # This app listens on port 8080 for web traffic by default.
+        ports:
+        - containerPort: 8080
+        env:
+          - name: PORT
+            value: "8080"

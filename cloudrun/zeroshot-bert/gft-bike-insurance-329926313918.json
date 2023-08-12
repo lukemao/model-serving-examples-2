@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gft-bike-insurance",
+  "private_key_id": "3299263139180a1f915e4b90fddc32c1ca2504b9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwwRdlE0cwMRem\n4rLv4R22/P6VsZttYAuUDJ0qK6ysuAe8NSwvVmbBGmeL0w8dGVhnC7izrf+SAvmy\n/JgIPfgKJy5oA9PlDOIoDecDVz1UcickoCMjTmn3kJWzYwZXMvujbZ8FwW2PrT7i\nT7iEbAVBlJHoYGmpPsx8zBwHVgN9wt37ElGhLzCBaB9b5e2OKvz5xIxrZEKnDuRO\nCxy4uXJ2IjuGnnc/cv1ffxmZenXsT24hb/8QMp3Isk29+xuJub+uUZrnsUAaB3kd\ni5Jt4ZWnG0l86qyz4gofKt3RqYUbrqzQm2aWaFoEYDXPUjGLGSagN5vbH8HJLr0D\nJZiJrW3zAgMBAAECggEAPT1hcC0qPIm90p339kGubHCielXzboVY7Z4jM/G23Y7T\na0OW//21E1GlL55cPa5C4Uz/3Q07n6i1P+zhdfWWg1oI65Pr7g+1KcCLWi53OtNk\nOX3cPsbT0yj+nQ0BrOOmqPx5nOJkJeQWBg4t9X+BoLOri/Ifmbp+2fxT97y27/Kp\nCJlf/h4alogVhMmlYk5jyPHSf6QsVd3j8366R7MZ/VCM6QvPzozcXUk/gJVGyGys\nfsWU6r5gLnYwak8WVz5TSSPgY+n/O+SMmEoN2oEHBnZP+0t221YD7kn5VpHIVUuw\nsbvLyxVIwZIBh34F7T7Y2oHllSW+U4eJB+tJPzTovQKBgQDioY/3iWXgkYKG338Q\nJUROLhMugpf3k2xUXa/BhuzSAg3Petmno6aFsiw2IlOqkKaO5fpbtDcCbr+Oi7eG\n7bPl6BI9og1NMMyCSvpv+4/SQH9RAoVxlodrW5KAheE64Mp6PVIhkPh4HlXZupNa\ndwYsO0NrRE4Oc191QKMarrc/ZQKBgQDHqOAs97RJ+5SrCgzh+fV30BDpXJVMJydn\nYA+HHUl80PlVP4yWcZu9rAJRsMnMvhW3DR8LL7SRe4e7iD9YZqSNmCUiY4HgUisZ\n8Z1cJGSKUbJ/T9ur4exFGJfd73M590pXxph+bPwqLgeS5Y/ZifAyHRU+u3T7Hwpp\n0esKwYq+dwKBgQDFa7xABF7NC7TKzPKhG/WurRBkmbrMHo5lx98NFP5DyypArWHh\nWPv8x0MgPTLpCG0vWkOHkyvAYL1Z7XgIgBUQl+Mb8YjozzO35JzY5ClbHHhMF4gr\ndNeuu+yZLQcRBTUc20Iqn2DzMmnS62bljX3BFjcawDvG9tYXDCGJYt2ayQKBgQCR\nSqAPuRXWfKA8My0ayLXLQXr9BqWSbC+td2b1UOeoT74RPhSFahkGVoS9g6PmPTE6\nKu87SbTh5X3phwVpxA/dBimHs9fQMJsy3vM/GTCcw0TchnV5yAcSZQoms9grB3xv\nEZLo9VAvNZ3HVQxwJoPHRAiwxOMk1vrR9LNQ+XSIkwKBgFKJiJR40d3f/eGzCveu\nN19iQtq5wHqwE16l/5JBXakKtq0M7Bv7KPwBAk4BxuJGRO5r+TNgeVhXegIQ6VCl\nG0qcngd3x6Wh2b1i6F4JXdGB6UaMBnzrUuf0p6Il4MqJ8oSamjzXEM4zF78Rtcck\nLFT1oRspczR/qCDKHDt8RPEy\n-----END PRIVATE KEY-----\n",
+  "client_email": "bigquery@gft-bike-insurance.iam.gserviceaccount.com",
+  "client_id": "110024149816290305123",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bigquery%40gft-bike-insurance.iam.gserviceaccount.com"
+}

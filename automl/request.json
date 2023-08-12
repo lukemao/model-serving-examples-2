@@ -1,0 +1,12 @@
+{
+  "inputConfig": {
+    "bigquerySource": {
+      "inputUri": "bq://sap-ds-demo.sap_multi_region.churn_batch"
+    },
+  },
+  "outputConfig": {
+    "bigqueryDestination": {
+      "outputUri": "bq://sap-ds-demo"
+    },
+  },
+}

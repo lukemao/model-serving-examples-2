@@ -1,0 +1,15 @@
+{
+    "inputConfig": {
+      "gcsSource": {
+         "inputUris": [ "gs://sap-automl-models/data/churn_batch" ]
+      }
+    },
+    "outputConfig": {
+      "gcsDestination": {
+        "outputUriPrefix": "gs://sap-automl-models/data/"
+      }
+    },
+    "params": {
+      "score_threshold": "0.0"
+    }
+  }

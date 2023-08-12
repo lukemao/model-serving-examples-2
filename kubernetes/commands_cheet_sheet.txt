@@ -1,0 +1,34 @@
+Containerizing an app with Cloud Build
+
+gcloud builds submit --tag gcr.io/test-project-256613/zeroshot .
+
+## Container
+Create the cluster. Replace your-gcp-zone with the Google Cloud zone where you want to host your cluster. For a complete list, see Geography and regions.
+
+gcloud container clusters create zeroshot --num-nodes 1 --enable-basic-auth --issue-client-certificate --zone europe-west2-a --machine-type=n1-standard-2
+
+kubectl get nodes
+
+## Deploy an app
+
+kubectl apply -f deployment.yaml
+
+kubectl get deployments
+
+kubectl get pods
+
+## Deploy a Service
+
+kubectl apply -f service.yaml
+
+kubectl get services
+
+## Clean up
+
+gcloud container clusters delete zeroshot --zone europe-west2-a
+
+## Set service account
+
+Windows:
+set GOOGLE_APPLICATION_CREDENTIALS=C:\Users\User\workspace\model-serving-examples\kubernetes\zeroshot\test-project-256613-6d9971fa4d45.json
+
